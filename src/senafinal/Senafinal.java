@@ -7,7 +7,7 @@ public class Senafinal {
    
     public static void main(String[] args) {
         
-        String nom,apellido;
+        String nom,apellido,direccion;
             
       Scanner nombre = new Scanner (System.in);
         System.out.println("Ingrese su pagina favorita");
@@ -16,6 +16,9 @@ public class Senafinal {
          System.out.println("Ingrese su apellido");
         apellido=nombre.next(); 
         
+        
+         System.out.println("Ingrese su direccion");
+        direccion=nombre.next(); 
         
         String esta;
       Scanner estado = new Scanner (System.in);
